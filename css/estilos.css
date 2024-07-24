@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+.container{
+    width: 98%;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+img {
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+p {
+    margin: 1rem auto;
+}
+section {
+    padding: 0 1rem;
+}
+section,
+h2,
+h3{
+    margin: 1rem auto;
+} 
+.rojo{
+    color: brown;
+}
+
+.preparacion
+{
+    background-color: rgb(227, 195, 240);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+ul {
+    list-style-position: inside;
+}
+table {
+    width: 100%;
+}
+td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+}
+ol li::marker {
+    color: brown;
+    font-weight: 800;
+}
+li {
+    padding: 0.3rem;
+}
